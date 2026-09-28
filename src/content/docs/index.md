@@ -23,7 +23,7 @@ The org catalog lists publications built in this organization. Bhāgavata is the
 | Repo | Role |
 | :--- | :--- |
 | [`meta`](https://github.com/vyasa-sa-wikisource/meta) | Workspace file and agent handoff |
-| [`vyasa-sa-wikisource`](https://github.com/vyasa-sa-wikisource/vyasa-sa-wikisource) | This site |
+| [`vyasa-sa-wikisource.github.io`](https://github.com/vyasa-sa-wikisource/vyasa-sa-wikisource.github.io) | This site |
 | [`publisher`](https://github.com/vyasa-sa-wikisource/publisher) | `sa_wikisource/`, `work` CLI, catalog merge |
 | [`content-puranas`](https://github.com/vyasa-sa-wikisource/content-puranas) | Mahāpurāṇas. Crawl snapshots and `.vy` editions live here |
 | [`sa.wikisource.org`](https://github.com/project-vyasa/sa.wikisource.org) | Live pipelines until each work-set moves |

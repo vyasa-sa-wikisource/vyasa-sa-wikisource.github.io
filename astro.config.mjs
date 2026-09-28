@@ -33,7 +33,7 @@ export default defineConfig({
         },
       ],
       editLink: {
-        baseUrl: "https://github.com/vyasa-sa-wikisource/vyasa-sa-wikisource/edit/main/",
+        baseUrl: "https://github.com/vyasa-sa-wikisource/vyasa-sa-wikisource.github.io/edit/main/",
       },
     }),
   ],

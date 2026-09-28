@@ -22,7 +22,7 @@ Open the multi-root workspace from `meta/vyasa-sa-wikisource.code-workspace` whe
 | :--- | :--- |
 | Crawl, extract, transform, `.vy` text | The content repo for that work-set |
 | `publisher.toml`, shared CSS, catalog merge, `work` CLI | `publisher` |
-| These pages | `vyasa-sa-wikisource` |
+| These pages | `vyasa-sa-wikisource.github.io` |
 | A Veda pipeline that has not moved yet | `project-vyasa/sa.wikisource.org` |
 
 Do not add crawl or extract code to `publisher`.
