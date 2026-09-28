@@ -16,7 +16,7 @@ That material is available under the [Creative Commons Attribution-ShareAlike 4.
 | These docs | https://vyasa-sa-wikisource.github.io/ |
 | Catalog | https://vyasa-sa-wikisource.github.io/publisher/catalog.json |
 
-Viewers still use the monorepo catalog at `https://project-vyasa.github.io/sa.wikisource.org/catalog.json` until content-repo fragments are merged into the org catalog.
+The org catalog includes the monorepo Veda publications. Those `.vyview` files stay on `https://project-vyasa.github.io/sa.wikisource.org/`. Bhāgavata is served from the org catalog host.
 
 ## Repos
 
