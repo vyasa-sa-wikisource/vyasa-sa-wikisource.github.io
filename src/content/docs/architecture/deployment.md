@@ -22,7 +22,7 @@ Publishing one text is one release asset plus a catalog row. It does not re-uplo
 | Org catalog (target) | https://vyasa-sa-wikisource.github.io/publisher/catalog.json |
 | Monorepo catalog (live viewers) | https://project-vyasa.github.io/sa.wikisource.org/catalog.json |
 
-`publisher/sa_wikisource/publisher.toml` names the org catalog URL. The Pages workflow merges every JSON file in `publisher/data/fragments/` and copies `sa_wikisource/works/` next to `catalog.json`. Veda rows point at the monorepo Pages host. Bhāgavata’s `.vyview` is in `sa_wikisource/works/` because `content-puranas` is private. A local `vyasac publish` still fills `sa_wikisource/dist/` on disk; Pages serves the catalog the workflow builds.
+`publisher/sa_wikisource/publisher.toml` names the org catalog URL. The Pages workflow merges every JSON file in `publisher/data/fragments/` and copies `sa_wikisource/works/` next to `catalog.json`. That catalog lists content-repo publications. Bhāgavata’s `.vyview` is in `sa_wikisource/works/` because `content-puranas` is private. The Veda publications stay on the monorepo catalog. A local `vyasac publish` still fills `sa_wikisource/dist/` on disk; Pages serves the catalog the workflow builds.
 
 ## Merge
 
